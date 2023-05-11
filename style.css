@@ -1,4 +1,18 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+JsDom .chat {
+  border: 1px solid #fdfa48;
+  background-color: #ebb238;
+  height: 150px;
+  width: 200px;
+}
+JsDom .chat .message {
+  font-size: 20px;
+  border: 1px rgba(0, 0, 0, 0);
+}
+JsDom .chat .message .line h3 {
+  color: #c02424;
 }/*# sourceMappingURL=style.css.map */

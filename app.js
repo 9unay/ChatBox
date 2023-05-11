@@ -10,9 +10,9 @@ $(document).ready(function () {
                     , newH3 = $('<h3></h3>')
                     , newDiv = $('<div class="line" > </div>')
                     , bigDiv = $(`<div ${myclass} > </div>`)
-                .$(newH3).append(vall);
-                .$(newDiv).append(newH3);
-                .$(bigDiv).append(newDiv);
+                $(newH3).append(vall);
+                $(newDiv).append(newH3);
+                $(bigDiv).append(newDiv);
                 return bigDiv
             }
             else {
