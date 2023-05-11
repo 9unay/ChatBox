@@ -3,16 +3,44 @@ body {
   font-weight: 500;
 }
 
-JsDom .chat {
-  border: 1px solid #fdfa48;
-  background-color: #ebb238;
-  height: 150px;
-  width: 200px;
+#java {
+  padding: 50px;
 }
-JsDom .chat .message {
-  font-size: 20px;
-  border: 1px rgba(0, 0, 0, 0);
+#java .chat {
+  border: 1px solid;
+  padding: 20px;
+  height: 300px;
+  border-radius: 5%;
+  margin-right: 20px;
+  background-color: yellow;
 }
-JsDom .chat .message .line h3 {
-  color: #c02424;
+#java .chat .message {
+  background-color: rgba(230, 122, 122, 0.5647058824);
+  border-radius: 10%;
+  height: 200px;
+}
+#java .chat .message .line {
+  border: 1px solid;
+  width: 50px;
+  text-align: center;
+  border: 10%;
+  border-radius: 30%;
+  height: 30px;
+  background-color: beige;
+}
+#java .chat .text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+#java .chat .text .send {
+  margin-left: 10px;
+  border: 1px solid;
+  width: 50px;
+  text-align: center;
+  border: 10%;
+  border-radius: 30%;
+  height: 30px;
+  background-color: beige;
 }/*# sourceMappingURL=style.css.map */
