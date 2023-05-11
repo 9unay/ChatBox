@@ -21,9 +21,8 @@ $(document).ready(function () {
 
         }
 
-        $("#messageme").append(myel)
-
-
+        $("#messageme").append(myel('class="end"'))
+        $("#inputme").val("")
 
     });
 
