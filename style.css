@@ -5,28 +5,32 @@ body {
 
 #java {
   padding: 50px;
+  display: flex;
+  align-items: center;
 }
 #java .chat {
-  border: 1px solid;
+  border: 2px solid #730d7c;
   padding: 20px;
   height: 300px;
-  border-radius: 5%;
+  border-radius: 3%;
   margin-right: 20px;
-  background-color: yellow;
+  background-color: #bc55f7;
 }
 #java .chat .message {
-  background-color: rgba(230, 122, 122, 0.5647058824);
-  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.4352941176);
+  border-radius: 3%;
   height: 200px;
+  padding: 10px;
 }
 #java .chat .message .line {
-  border: 1px solid;
-  width: 50px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid #730d7c;
+  width: 60px;
   text-align: center;
-  border: 10%;
-  border-radius: 30%;
+  border-radius: 20%;
   height: 30px;
-  background-color: beige;
+  background-color: #730d7c;
 }
 #java .chat .text {
   display: flex;
@@ -35,12 +39,16 @@ body {
   margin-top: 20px;
 }
 #java .chat .text .send {
+  font-size: 20px;
+  color: white;
   margin-left: 10px;
-  border: 1px solid;
-  width: 50px;
+  border: 1px solid #730d7c;
+  width: 55px;
   text-align: center;
-  border: 10%;
-  border-radius: 30%;
+  border-radius: 20%;
   height: 30px;
-  background-color: beige;
+  background-color: #730d7c;
+}
+#java .chat input {
+  border: 2px solid #730d7c;
 }/*# sourceMappingURL=style.css.map */
