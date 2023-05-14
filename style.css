@@ -12,13 +12,13 @@ body {
   border: 2px solid #730d7c;
   padding: 20px;
   height: 300px;
-  border-radius: 3%;
+  border-radius: 13px;
   margin-right: 20px;
   background-color: #bc55f7;
 }
 #java .chat .message {
   background-color: rgba(255, 255, 255, 0.4352941176);
-  border-radius: 3%;
+  border-radius: 3px;
   height: 200px;
   padding: 10px;
 }
@@ -29,7 +29,7 @@ body {
   border: 1px solid #730d7c;
   width: 60px;
   text-align: center;
-  border-radius: 35%;
+  border-radius: 35px;
   height: 30px;
   background-color: #730d7c;
 }
@@ -44,9 +44,9 @@ body {
   color: white;
   margin-left: 10px;
   border: 1px solid #730d7c;
-  width: 55px;
+  width: 60px;
   text-align: center;
-  border-radius: 35%;
+  border-radius: 35px;
   height: 30px;
   background-color: #730d7c;
 }
