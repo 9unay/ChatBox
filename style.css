@@ -60,4 +60,9 @@ body {
 #java .chat .text .send h3 {
   color: white;
   margin-bottom: 4px;
+}
+@media screen and (max-width: 768px) {
+  #java .chat {
+    margin-bottom: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */
