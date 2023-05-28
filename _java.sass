@@ -1,43 +1,47 @@
 #java
-    padding: 50px
-    display: flex
-    align-items: center
+    padding: 50px 0
     .chat
         border: 2px solid #730d7c
         padding: 20px
-        height: 300px
+        width: 500px
         border-radius: 13px
-        margin-right: 20px
         background-color: #bc55f7
         .message
             background-color: #ffffff6f
             border-radius: 3px
             height: 200px
             padding: 10px
+            &::-webkit-scrollbar
+                display: none
             .line
+                display: inline-block
                 font-size: 20px
                 color: #ffff
-                margin: 10px
-                border: 1px solid #730d7c
+                margin-bottom: 10px
                 width: 60px
-                text-align: center
+                text-align: start
                 border-radius: 35px
                 height: 30px
+                width: 50px
                 background-color: #730d7c
         .text
             display: flex
             justify-content: center
-            align-items: flex-end
+            align-items: center
             margin-top: 20px
+            input
+                border: 2px solid #730d7c
             .send
                 font-size: 20px
                 color: #ffff
-                margin-left: 10px
-                border: 1px solid #730d7c
                 width: 60px
-                text-align: center
+                padding: 9px
+                margin: 10px
                 border-radius: 35px
-                height: 30px
                 background-color: #730d7c
-        input
-            border: 2px solid #730d7c
+                h3
+                    color: #ffff
+                    margin-left: 15px
+    .end
+        display: flex
+        justify-content: flex-end
